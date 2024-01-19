@@ -1,9 +1,9 @@
 import os
-import booking.booking_constants as const
+import Booking_Bot.booking_constants as const
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from booking.booking_filter import BookingFiltration
-from booking.booking_report import BookingReport
+from Booking_Bot.booking_filter import BookingFiltration
+from Booking_Bot.booking_report import BookingReport
 
 
 class Booking(webdriver.Chrome):

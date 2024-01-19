@@ -1,4 +1,4 @@
-from booking.booking import Booking
+from Booking_Bot.booking import Booking
 
 try:
     with Booking() as bot:
